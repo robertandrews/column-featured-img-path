@@ -27,7 +27,7 @@ function custom_featured_image_column_content($column_name, $post_id)
             $upload_dir = wp_upload_dir();
             $featured_image_path = get_post_meta($featured_image_id, '_wp_attached_file', true);
             $featured_image_url = $upload_dir['baseurl'] . '/' . $featured_image_path;
-            $featured_image_path_parts = explode('wp-content', $featured_image_url);
+            $featured_image_path_parts = explode(site_url(), $featured_image_url);
             $featured_image_path = end($featured_image_path_parts);
             $featured_image_path = ltrim($featured_image_path, '/');
             echo $featured_image_path;
