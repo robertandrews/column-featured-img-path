@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Featured Image Path Column
+Plugin Name: Posts Column for Featured Image Path
 Plugin URI: https://www.robertandrews.co.uk
 Description: Adds a custom column to the Posts list which shows the path of any attached Featured Image.
 Version: 1.0

@@ -1,4 +1,4 @@
-# Custom Featured Image Path Column
+# Posts Column for Featured Image Path
 
 This WordPress plugin adds a custom column to the Posts list in the WordPress admin area. The column displays the path of any attached Featured Image for each post.
 
