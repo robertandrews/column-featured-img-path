@@ -6,7 +6,7 @@ This WordPress plugin adds a custom column to the Posts list in the WordPress ad
 
 ## Installation
 
-1. Upload the `featured-image-path-column` folder to the `/wp-content/plugins/` directory.
+1. Upload the `column-featured-image-path` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to the 'Posts' screen in the WordPress admin area to see the new custom column.
 
